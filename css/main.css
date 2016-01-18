@@ -1,0 +1,159 @@
+/* Bootstrap CSS overriding */
+
+.alert{
+	margin-top: 10px;
+	padding: 10px;
+	display: block;
+}
+.error{
+	display: block;
+	color: #d81900;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary{
+	outline: none;
+}
+.panel-primary > .panel-heading{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/* Main CSS Starts Here */
+.h1, .h2, .h3, h1, h2, h3{
+	margin: 0;
+}
+body{
+	font-family: 'Roboto';
+}
+.loginform.wrapper{
+	width: 100%;
+	margin: 30px auto;
+	float: left;
+}
+.legalAgreement.wrapper{
+	float: left;
+	width: 100%;
+}
+.home.wrapper, .about.wrapper, .changePin.wrapper{
+	margin: 45px auto;
+	font-size: 15px;
+}
+.container{
+	float: left;
+	width: 100%;
+	width: 90%;
+	margin: 25px 5% 0;
+}
+.loginForm .loginSec{
+	padding: 10px;
+	width: 100%;
+	float: left;
+}
+.loginSec label{
+	margin: 10px 0 5px;
+	display: block;
+}
+.agreement_container{
+	float: left;
+}
+.agreement_container p{
+	float: left;	
+	font-size: 13px;
+	line-height: 16px;
+	margin: 0;
+	overflow-y: auto;
+	text-align: justify;
+	width: 100%;
+	word-wrap: break-word;
+}
+.btn_container{
+	color: #fff;
+	float: left;
+	font-family: "Roboto";
+	font-size: 16px;
+	margin: 8px 0 0;
+	padding: 8px 0 0;
+	width: 100%;
+}
+.agree{
+	margin-left: 10px;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 63px;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	background: #fff;
+	border-bottom: 1px solid #337ab7;
+}
+.logo{
+	font-size: 26px;
+	color: #000;
+	float: left;
+	padding-top: 12px;
+	width: 100%;
+}
+.leftmenu{
+	position: absolute;
+	top: 6px;
+	left: 15px;
+}
+.agreeTitle{
+	margin: 10px 0;
+	font-size: 22px;
+}
+.leftToRight{
+	background-color: #337ab7;
+	height: 100%;
+	left: 0;
+	margin-top: 63px;
+	position: fixed;
+	text-align: justify;
+	top: 0;
+	width: 35%;
+	z-index: 12 !important;
+}
+.sideMenu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 0 0;
+}
+.sideMenu ul li a{
+	color: #fff;
+	padding: 10px 10px 10px 15px;
+	display: block;
+	font-size: 18px;
+	border-bottom: 1px solid #000;
+}
+.sideMenu ul li a:hover, .sideMenu ul li a:active, .sideMenu ul li a:focus{
+	text-decoration: none;
+	background: #589fdc;
+	outline: none;
+}
+.leftToRight{
+	display: none;
+}
+.sideMenu ul li a span{
+	display: block;
+}
+.appVersion{
+	color: #fff;
+	padding: 15px 10px;
+	text-align: right;
+}
+.logOut{
+	float: right;
+	position: absolute;
+	right: 15px;
+	width: 78px;
+	z-index: 2;
+	top: 17px;
+}
+.pinChange{
+	margin-top: 15px;
+}
+.pinChange label{
+	margin: 10px 0 5px;
+}

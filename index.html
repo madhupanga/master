@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="assignment2">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="initial-scale=1,user-scalable=no, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <title>ISEM-Assignment</title>
+        <!-- third-party libs java script path -->
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="array_page.js"></script>
+  <style>
+  body {
+
+    background-color:lightblue;
+
+  }
+  </style>
+    </head>
+	
+<body>
+   <div ng-view>
+    </div>
+<div class="container">
+  <h1>ISEM 551 </h1>
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#git">Git repository</a>
+        </h4>
+      </div>
+      <div id="git" class="panel-collapse collapse in">
+        <div class="panel-body">Git repository is the widely used version control. Git is well received by many organization due to its easy of use,
+open sourse.There are many features available which will give comfort to check-in,review and do many things.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#angular">Angular JS</a>
+        </h4>
+      </div>
+      <div id="angular" class="panel-collapse collapse">
+        <div class="panel-body">AngularJS (generally alluded to as "Angular" or "Angular.js") is an open-source web application system predominantly kept up by Google and by a group of people most remarkably, Rangle.io and additionally amass engineers and organizations to address a hefty portion of the difficulties experienced in creating single-page applications.</div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#boots">Bootstrap</a>
+        </h4>
+      </div>
+      <div id="boots" class="panel-collapse collapse">
+        <div class="panel-body">When all is said in done speech, bootstrapping for the most part alludes to a self-beginning process that should continue without outer info. In PC innovation the term (typically abbreviated to booting) more often than not alludes to the procedure of stacking the fundamental programming into the memory of a PC after force on or general reset, particularly the working framework which will then deal with stacking other programming as required..</div>
+      </div>
+    </div>
+  </div> 
+</div>
+ <input type="button" onclick="go()" value="angularJS"/>
+
+</body>
+</html>
